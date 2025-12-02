@@ -1,0 +1,12 @@
+# Core dependencies for TransCaption
+# Translation is built-in using standard library (urllib, json)
+pillow>=9.0.0
+mss>=6.1.0
+pytesseract>=0.3.9
+langdetect>=1.0.9
+
+# Optional: for DeepL support (uncomment if needed)
+# deepl>=1.11.0
+
+# Optional: for Google Cloud Translation support (uncomment if needed)
+# google-cloud-translate>=3.8.0
