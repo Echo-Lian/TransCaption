@@ -14,12 +14,13 @@ TransCaption captures a small fixed region of the screen (mainly used in where T
 ```bash
 brew install tesseract
 ```
-2. Initialize a Python 3.8+ virtual environment for development.
+2. Initialize a Python 3.8+ virtual environment for development. `transcap`is the name of the venv, you can name anything you prefer.
 ```bash
-python -m venv path/to/venv/
+python -m venv transcap
+source transcap/bin/activate
 ```
 3. Install neccessary Python packages.
 ```bash
-pip install pillow mss pytesseract langdetect requests googletrans
+pip install pillow mss pytesseract langdetect requests
 ```
 4. A translation API key (DeepL / Google Cloud Translation / Microsoft Translator) OR use free unofficial `googletrans` (less reliable).
