@@ -1,3 +1,4 @@
 .github
 .claude
 transcap
+__pycache__
