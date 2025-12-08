@@ -61,9 +61,12 @@ brew install ffmpeg
 ```
 
 2. Install BlackHole (virtual audio device for capturing system audio):
+2.1 Via Homebrew
 ```bash
 brew install blackhole-2ch
 ```
+2.2 Via Official installer
+[text](https://existential.audio/blackhole/)
 
 3. **Configure Audio MIDI Setup** (one-time setup):
    - Open **Audio MIDI Setup** (Applications > Utilities > Audio MIDI Setup)
